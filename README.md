@@ -11,7 +11,7 @@ Reconstructing an image by concatenating tiny images or patches. I used images o
 <b> Usage: </b> <br/>
 
 ```python
-converter = Image2Mosaic("path to cifar-100 images file", super_pixel_size=(3,3)) <br/>
+converter = Image2Mosaic("path to cifar-100 images file", super_pixel_size=(3,3))
 result = converter.Convert("images/girl.jpg", size=(729,729))
 ```
 
